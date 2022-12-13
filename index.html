@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio</title>
+
+  <!-- Favicons -->
+  <!-- CITATION: Taken from https://play.google.com/store/apps/details?id=com.alfianlosari.hackernews&hl=en&gl=US -->
+  <link href="favicon.png" rel="icon">
+
+  <!-- Font -->
+  <!-- Sofia-Pro Adobe Font -->
+  <link rel="stylesheet" href="https://use.typekit.net/blg0zww.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Index CSS File -->
+  <link href="index.css" rel="stylesheet">
+
+  <!-- From https://getbootstrap.com/docs/5.0/examples/#custom-components Jumbotron Example -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <!-- CITATION: https://getbootstrap.com/docs/5.0/components/navbar/ -->
+  <nav class="navbar navbar-expand-lg navbar-light text-white sticky-top custom-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="color: white" aria-current="page" href="#introduction">Introduction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white" href="#personas">Personas and Storyboarding</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white" href="#lofi">Wireframing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white" href="#iterative">Iterative Design</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white" href="#dev">Development</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" style="color: white" href="#conclusion">Conclusion</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container py-4">
+
+    <!-- CITATION: JUMBOTRON EXAMPLE FROM https://getbootstrap.com/docs/5.0/examples/#custom-components -->
+    <div class="p-5 mb-4 dark-bg rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold" style="color: white">AwesomeAxolotl39</h1>
+        <p class="col-md-8 fs-4" style="color: white">A college student's journey of learning about UI/UX design</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h3 id="introduction" class="pb-4 mb-4 border-bottom">
+          Introduction
+        </h3>
+        <div class="row">
+            <h4 class="pb-2 mb-2">Background</h4>
+            <div class="row">
+              <div class="col-md-4">
+                <figure class="figure">
+                  <img src="images/axolotl.png" class="figure-img img-fluid rounded frame"
+                    alt="axolotl">
+                  <figcaption class="figure-caption center-text">An awesome axolotl</figcaption>
+                </figure>
+              </div>
+              <div class="col-md-8"> 
+                <p> I am a college junior studying computer science. I took a UI/UX in order to learn about different
+                  aspects of CS than those covered in the classes I have taken thus far. During the first week of class,
+                  we looked at the portfolios of professional UI/UX designers. One that particularly stood out to me
+                  was that of Jesse Prague. Although she is now a product designer at Meta, many of the pieces on her
+                  website
+                  were those that she had designed while a college student and were projects specificaly geared towards
+                  fellow
+                  college students. Inspired by this, as I implemented various projects this semester, I decided to focus on
+                  designing things geared towards college students and investigating issues that my peers and I face
+                  regularly.
+                </p>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <h2 id="projects" class="pb-4 mb-4 border-bottom">
+              Projects
+            </h2>
+            <p>Throughout the semester, I learned about about various aspects of UI/UX design, such as
+              <!-- CITATION: Tooltip Code https://getbootstrap.com/docs/5.0/components/tooltips/ -->
+              <span class="topic" data-bs-toggle="tooltip" data-bs-placement="top" title="How can we get a sense of user experience for a given interface? How can we use this
+                to model different user groups for a given interface?">UX research,</span>
+              <span class="topic" data-bs-toggle="tooltip" data-bs-placement="top" title="">LoFi prototyping</span>
+              <span class="topic" data-bs-toggle="tooltip" data-bs-placement="top" title="What is it like to go through the design process from an initial idea to a HiFi prototype?
+                How do I incorporate user testing and feedback into my design?">HiFi prototyping,</span> and
+              <span class="topic" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="What is it like to move beyong prototyping and design a fully functioning app?
+                How can I incorporate what I have learned thus far about useability, learnability, and memorability into my design?">development.</span>
+
+              <b>Hover over these topics to see more specific questions</b>
+            </p>
+
+            <p>Keeping these topics in mind, the following are four projects I have worked on in order to gain more
+              experience with each
+              of these aspects of UI/UX design:
+            </p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card dark-bg h-100 ">
+                  <div class="card-body" style="color: white;">
+                    <!-- <button button type="button" class="btn btn-primary card-title" data-bs-toggle="button"
+                      autocomplete="off"><i class="fas fa-brain"></i></button> -->
+                    <h3>Personas and Storyboarding:</h3>
+                    <p class="card-text">Because it is so conviently located relative to campus, CVS is a common
+                      stopping place
+                      for students buying snacks, daily necessities, cleaning supplies, etc. However, one issue with
+                      shopping at CVS
+                      is the self-checkout machines, which are often quite slow and finicky.
+                    </p>
+                    <p class="card-text"> Therefore, for the personas and storyboarding assignment where we were tasked
+                      with
+                      observing users interact with an interface and developing personas and a storyboard, I chose to
+                      focus
+                      on the CVS checkout machine, as it is an interface that my peers and I interact with regularly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card dark-bg h-100">
+                  <div class="card-body" style="color: white;">
+                    <h4>Wireframing</h4>
+                    <p class="card-text">After learning about personas and storyboarding, we moved onto prototyping,
+                      starting with LoFi wireframing. I completed this project at the beginning of the semester when
+                      there was an issue
+                      with lines in dinig halls being too long during the meal time rush, thus making it difficult for
+                      students to get
+                      food during their breaks. This inspired my to design a wireframe for a potential app that students
+                      could use to
+                      check the wait times at various dining halls in order to find a location where they would have
+                      time to get food between
+                      classes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card dark-bg h-100 mt-3" style="margin-top: 1vw">
+                  <div class="card-body" style="color: white;">
+                    <h4>Iterative Design:</h4>
+                    <p class="card-text">
+                      Another issue commonly faced by my peers and I is splitting checks when we get food together.
+                      Therefore,
+                      for iterative design, my group my group decided to work on
+                      a prototype of an app
+                      for a startup called Orca, which is focused on providing one location where gen Z users can manage
+                      their budgets, pay friends,
+                      split checks, etc, because it seemed like something we would all actually use.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card dark-bg h-100" style="margin-top: 1vw">
+                  <div class="card-body"  style="color: white;">
+                    <h3>Development:</h3>
+                    <p class="card-text">
+                      In our free time, many of my friends and I love to bake. However, between juggling classwork and
+                      extraciriculars,
+                      it is sometimes a struggle to find recipes that we actually have time to make. Additionally, many
+                      of us have various
+                      dietary restrictions/allergies (e.g. celiacs, lactose intolerance, etc).
+                    </p>
+                    <p class="card-text">
+                      Inspired by this, I developed a WebApp that takes recipes from one of our favorite baking blogs
+                      and allow users
+                      to sort the recipes by cooktime and filter them by different dietary restrictions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 mt-5">
+        <h3 id="personas" class="pb-4 mb-4 border-bottom">
+          Personas and Storyboarding
+        </h3>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Overview and General Process</h5>
+          <p>For this project, I observed people using my chosen interface, the CVS checkout machine, and interviewed
+            them about their experience using the machine. I then used their responses and my obervations to create
+            personas and
+            a storyboard to further investigate how people interact with this interface.
+          </p>
+          <p>Click <a href="personas.html">here</a> to visit the personas and storyboarding to learn more about
+            the process and see the final pieces.</p>
+        </div>
+        <div class="col-md-6">
+          <figure class="figure">
+            <img src="images/personas/personas.png" class="figure-img img-fluid rounded frame"
+              alt="picture of personas webpage">
+            <figcaption class="figure-caption center-text">Personas and Storyboarding Assignment Page</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 mt-5">
+        <h3 class="pb-4 mb-4 border-bottom" id="lofi">
+          Wireframing
+        </h3>
+      </div>
+      <div class="row">
+        <h5>Overview and General Process</h5>
+        <p> The goal of this project was to continue building off the skills developed in personas and storyboarding
+          relating to identifying
+          user groups and issues with interfaces and experiment Balsamiq to design a LoFi prototype that would
+          potentially solve one of the issues
+          identified for said user group.
+          As mentioned above, for this project was inspired by the long lines of dining halls and how my peers and I
+          often spent
+          much of our lunch breaks either going from dining hall to dining hall to find one with short enough lines or
+          just waiting in
+          line.
+        </p>
+        <p> When designing this wireframe, I first created a series of sketches of potential designs, then talked
+          through these designs
+          with a partner, determining which aspects of each design to use in the final version in order to make the
+          hypothetical app as
+          easy to use and navigate as possible.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="accordion" id="lofi">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Wireframe version 1:
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#lofi">
+                <div class="accordion-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <figure class="figure">
+                        <img src="images/wireframing/version1.png" class="figure-img img-fluid rounded frame"
+                          alt="wireframe version 1" style="height:500px">
+                      </figure>
+                    </div>
+                    <div class="col-md-6">
+                      <p> <br>In this version, there is a drop down window for each dining hall that rates the wait time
+                        for each
+                        section of the dining hall as "short," "medium," or "long." It also includes an average rating
+                        for the dining
+                        hall as a whole. At the top of the app, there is a scale that goes from 0 to 40min, to give the
+                        user a sense of
+                        what "short," "medium," and "long" mean.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Wireframe version 2:
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#lofi">
+                <div class="accordion-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <figure class="figure">
+                        <img src="images/wireframing/version2.png" class="figure-img img-fluid rounded frame"
+                          alt="wireframe version 2" style="height:500px">
+                      </figure>
+                    </div>
+                    <div class="col-md-6">
+                      <p> <br>Version 2 is very similar to version 1, except, instead of rating the wait time of each
+                        station as "short,"
+                        "medium," or "long," it actually gives the time of the line. It also includes a feature at the
+                        top where users can
+                        log how long they waited in a given line (which would be factored into the calculations of the
+                        wait time).</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Wireframe version 3:
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#lofi">
+                <div class="accordion-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <figure class="figure">
+                        <img src="images/wireframing/version2.png" class="figure-img img-fluid rounded frame"
+                          alt="wireframe version 2" style="height:500px">
+                      </figure>
+                    </div>
+                    <div class="col-md-6">
+                      <p> <br>Version 3 is very different from the other 2 versions. Rather than having a drop down tab
+                        for each dining hall,
+                        the user can instead click on a tab for a given dining hall to see the wait times (in minutes)
+                        for all of the lines in that
+                        dining hall. Each tab also contains a link to the menu for that specific dining hall, as well as
+                        a button that users can
+                        press to log a wait time. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 justify-content-center">
+          <div class="row justify-content-center">
+            <figure class="figure d-flex justify-content-center">
+              <img src="images/wireframing/final.png" class="figure-img img-fluid rounded frame" alt="final wireframe"
+                style="width: 25vw">
+            </figure>
+          </div>
+          <div class="row">
+            <p>Following peer feedback, I combined aspects of the different versions to make one "final wireframe." The
+              final
+              wireframe is most similar to version 2 in that it has drop down tabs for each dining hall with the wait
+              time
+              for each station displayed in minutes. It also contains the "log wait time" button at the top of the app.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- CITATION: Figures https://getbootstrap.com/docs/5.0/content/figures/ -->
+
+
+    <!-- CITATION: Figures https://getbootstrap.com/docs/5.0/content/figures/ -->
+    <div class="row">
+      <div class="col-md-12 mt-5">
+        <h3 class="pb-4 mb-4 border-bottom" id="iterative">
+          Iterative Design
+        </h3>
+        <h5>Overview</h5>
+        <p>Following LoFi prototyping, we moved onto using Figma to design HiFi prototypes. For this project, my group
+          chose to design a mockup of an App for the startup Orca, which
+          is focused on
+          providing one location where gen Z users can manage
+          their budgets, pay friends,
+          split checks, etc.</p>
+        <h5>Process</h5>
+        <p>When designing the app, we first discussed a variety a different sketches, which culminated in the making of
+          a LoFi wireframe. We then moved onto making our HiFi prototype in Figma. This prototype went
+          through a few iterations where we incorpoated peer feedback. We also submitted the HiFi prototype to a user
+          testing website to investigate how actual potential users would interact with it to complete a series of tasks
+          we had designed.
+        </p>
+        <p>Below is our final HiFi prototype -- feel free to click buttons and interact with the App to get a sense of
+          how
+          it would work!
+        </p>
+        <div class="row justify-content-center mt-3">
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="1050"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNqsZsyxxJxA0hLZh2XQWMx%2FOrca-App-Mockup-(Anonymous)%3Fnode-id%3D1%253A192%26starting-point-node-id%3D1%253A192"></iframe>
+          <figcaption class="figure-caption center-text">Final HiFi Protytpe for Orca</figcaption>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 mt-5">
+        <h3 class="pb-4 mb-4 border-bottom" id="dev">
+          Development
+        </h3>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Overview and General Process</h5>
+          <p> Finally, I got to move beyond prototyping to designing an actual webApp. For this
+            project I was inspired by how my friends and I choose recipes to bake to
+            design a WebApp that allows users to sort and filter recipes based on cooktime and dietary restrictions.
+          </p>
+          <p> When developing this WebApp, I experimented with and learned about using separate components and state
+            to
+            allow users to trigger
+            changes in the page. Specifically, users can click on the different radio buttons that determine how the
+            data is
+            filtered and
+            ordered in order to change the state of the constants that determine these properties. Additionally,
+            users can
+            add/remove items
+            to/from the "Favorites" list. When using state and components, I also learned about passing data through
+            the
+            different components
+            via "props."
+          </p>
+          <p>Click <a href="https://awesomeaxolotl39.github.io/development/" target="_blank">here</a> to visit and
+            interact with the Recipe Finder.</p>
+        </div>
+        <div class="col-md-6">
+          <figure class="figure">
+            <img src="images/development.png" class="figure-img img-fluid rounded" alt="picture of WebApp">
+            <figcaption class="figure-caption">Picture of Recipe Finder WebApp</figcaption>
+          </figure>
+        </div>
+      </div>
+      <!-- CITATION: Figures https://getbootstrap.com/docs/5.0/content/figures/ -->
+    </div>
+
+    <!-- <div class="row">
+      <div class="col-md-12 mt-5">
+        <h3 id="conclusion" class="pb-4 mb-4 border-bottom">
+          Conclusion
+        </h3>
+        <p>
+          Overall, I enjoyed working on these projects and getting exposure to more front-end design and material beyond the courses I
+          have taken in CS thus far. I also learned a lot about APPARENTLY SOMETHING THAT IS HYPOTHETICALLY USEFUL.
+        </p>
+      </div>
+    </div> -->
+  </div>
+  </div>
+
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- CITATION: Tooltip Code https://getbootstrap.com/docs/5.0/components/tooltips/ -->
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+</body>
+
+</html>
